@@ -1,0 +1,32 @@
+Project Name,Product Store,,,,,,,,,
+Module Name,Login page,,,,,,,,,
+Created By,Riya,,,,,,,,,
+Created Date,27-12-2024,,,,,,,,,
+Reviewed By,Boss,,,,,,,,,
+Reviewed Date,27-12-2024,,,,,,,,,
+,,,,,,,,,,
+Test Case ID,Test Scenario ID,Test Case Title,Pre-requisites,Test Steps,Test Data,Expected Result,Actual Result,Status,,
+TC-001, (TS_001)Log in funcationality,"Enter the valid data in textbox by  (username,password)
+",1.Open the Application link:-https://www.demoblaze.com/,"1.Click on login .
+2.Click on username to field data in textbox
+3.Click on password to field data in textbox
+4.Click on login button.","Enter the valid data        Username:-Pooja
+Password:-98765","enter  valid data field to textbox in the should be username ,password .
+ ","warning message to show display:-User does not exist.
+",Fail,,
+TC-002, (TS_001) Log in  funcationality,"Veryify sign up to application using in'press the keyboard key.(Tab,Enter)
+","1.Open the Application link:-
+https://www.demoblaze.com/","1.Click on  sign up.
+2.Press tab keyboard keys until the control comes to the username text field and enter the valid username.   
+3.Press tab keyboard key moves the control comes to the password text field and enter the valid password.     
+4.Press tab keyboard key until the control comes to the 'Close' button and press 'Enter' Key.  
+5.Press Tab Keyboard Key until the control comes to the 'sign up'  button  and press 'Enter' Key to submit.",N/A,"user should be able to Sign up into the application with tab key button through
+",login to above in  application using in press the keyboard key but login logo is not show to display press the tab key button. and no show colour,Fail,,
+TC-003, (TS_001)Log in  funcationality,"Verify that user can be able to view the password by clicking on the eye icon
+","1.Open the Application link:-
+https://www.demoblaze.com/","1.Click on cart then open products to display 
+2.Click on the password aur able to view the password by clicking on the eye icon
+3.Click on login buttton
+",N/A,"the password clicking able to eye icon show to should be display
+","the password is not show eye icon by clicking the password 
+",fail,,
