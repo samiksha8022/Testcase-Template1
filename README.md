@@ -1,5 +1,4 @@
-The manual testing,
-
-This is My first github Repository,
-
+Manual Testing Project
+Test Plan I have created a Test Plan for the Project
+Project Name : Product Store
 Author: Samiksha Chauhan
