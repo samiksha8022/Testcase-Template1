@@ -1,0 +1,98 @@
+"Project Name
+Module Name 
+Created By
+Created Date
+Reviewed By
+Reviewed Date
+","Product Store
+Sign up page
+Riya
+23-12-2024
+Boss
+27 -12-2024
+",,,,,,,,,,,,
+,,,,,,,,,,,,,
+Test Case ID,Test Scenario ID,Test Case Title,Pre-requisites,Test Steps,Test Data,Expected Result,Actual Result,Status,Comment,,,,
+TC-001, (TS_001)Sign up funcationality,Enter the valid Username and Password,1.Open the Application link:-https://www.demoblaze.com/,"1.Click on  sign up.
+2.Click on username to filed valid data.
+3.Click on passwoard to filed valid data.
+4.Click on sign up button.","Enter the valid data        Username:-khushe
+Password:-1234567","Successful should be display the message with valid username and password
+'Sign up successful'.",As Expected,Pass,No Comment,,,,
+TC-002, (TS_001) Sign up funcationality,"verify that user should not be able to sign up with blank Username, Password.","1.Open the Application link:-https://www.demoblaze.com/
+","1.Click on  sign up.
+2.Click on username but blank
+3.Click on passwoard but blank.
+4.Click on sign up button",N/A,"Below should be in  the error message with username and passwoard.
+","Warning message to display show:-Please fill out Username and Password.
+",Fail,No Comment,,,,
+TC-003, (TS_001)Sign up funcationality,"verify that user should be able in username and password with asterisk(*)
+","1.Open the Application link:-https://www.demoblaze.com/
+","1.Click on  sign up.
+2.above the username but not able to marks asterisk.
+3.Above the passwoard but not able to marks  asterisk.
+4.Click on sign up button",N/A,"verify that user should be above able to filed the username and password with asterisk(*).
+","username and passwoard no able to asterisk(*).
+",Fail,No Comment,,,,
+TC-004, (TS_001) Sign up funcationality,"Verify that user filed data of username in the text box but password is blank
+","1.Open the Application link:-https://www.demoblaze.com/
+","1.Click on  sign up.
+2.Click on username in filed data.
+3.Click the passwoard but no filed data passwoard.
+4.Click on sign up button",Enter the valid data        Username:-samiksha,"Below should be in  the error messageof show with passwoard.
+","Warning Message to display show:-Please fill out Username and Password. 
+",Fail,No Comment,,,,
+TC-005, (TS_001) Sign up funcationality,"Verify that user of enters to invalid data in to username and password.
+","1.Open the Application link:-https://www.demoblaze.com/
+","1.Click on  sign up.
+2.Click on Username:-invalid data fill username in textbox.
+3.Click on Passwoard:-invalid data fill Passwoard in textbox
+4.Click on sign up button","Enter the invalid data        Username:-123456798
+Password:-Pushpa
+",Warning message should be display show:-not match username and password., Message to display show:-Sign up successful.,Fail,No Comment,,,,
+TC-006, (TS_001) Sign up funcationality,"Veryify sign up to application using in'press the keyboard key.(Tab,Enter)
+","1.Open the Application link:-https://www.demoblaze.com/
+","1.Click on  sign up.
+2.Press tab keyboard keys until the control comes to the username text field and enter the valid username.   
+3.Press tab keyboard key moves the control comes to the password text field and enter the valid password.     
+4.Press tab keyboard key until the control comes to the 'Close' button and press 'Enter' Key.  
+5.Press Tab Keyboard Key until the control comes to the 'sign up'  button  and press 'Enter' Key to submit.
+",N/A,"user should be able to Sign up into the application with tab key button through
+",As Expected,Pass,No Comment,,,,
+TC-007, (TS_001) Sign up funcationality,"There is a space between username,password and testbox
+","1.Open the Application link:-https://www.demoblaze.com/
+","1.Click on  sign up.
+2.There is a space between username and textbox
+3.There is a space between password and textbox
+4.Click on Sign up button.",N/A,"1.there should  no be space between username and textbox
+2.there should  no be space between password and textbox","1.There is a space between username and textbox
+2.There is a space between password and textbox",Fail,No Comment,,,,
+TC-008, (TS_001) Sign up funcationality,"Verify username and Password in the textfileds sign up page have the place holder text.
+","1.Open the Application link:-https://www.demoblaze.com/
+","1.Click on sign up.
+2.Click on username and password in the textfileds have the place holder text.
+3.Click on sign up button.",N/A,"proper place holder text should be display inside the 'username and password' text fileds.
+",it is placeholder text ,pass,No Comment,,,,
+TC-09, (TS_001) Sign up funcationality,"verify the copy of the textbox enter in the password fields
+","1.Open the Application link:-https://www.demoblaze.com/
+","1.Click on sign up.
+2.Click on username and password in the textfileds have the place holder text.
+3.Click on sign up button. ",N/A,"the copy of the text box enter in the passwd fields and side to hide or show option should be display in password. 
+it should be password private.
+","but it is a password private and no hide or show to option in the text box of password
+",fail,No Comment,,,,
+TC-010, (TS_001) Sign up funcationality,"verify that below show the message to fileds in textbox by username, password 
+","1.Open the Application link:-https://www.demoblaze.com/
+","1click on sign up 
+2. click on the textfield enter the invalid data by username
+3.click on the textfield enter the invalid data by password
+4click on the sign up button",N/A,it should be below error message show in the textfield,"but no message show below in the username, password
+",fail,No Comment,,,,
+TC-011, (TS_001) Sign up funcationality,"Verify that user to filed data of username in the text box but username to below show message
+","1.Open the Application link:-https://www.demoblaze.com/
+","1.Click on sign up.
+2.Click on  user to fill data of username in the text box but username  below show message.
+3..Click on  user to fill data of password in the text box but password below show message.
+4.Click on sign up button.",N/A,"Enter the data in textbox username to should be show message in below like username must be between 1 and 32 characters
+","but no message show below in the username.
+",Fail,No Comment,,,,
