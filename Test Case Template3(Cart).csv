@@ -1,0 +1,134 @@
+Project Name,Product Store,,,,,,,,
+Module Name,Cart,,,,,,,,
+Created By,Riya,,,,,,,,
+Created Date,27-12-2024,,,,,,,,
+Reviewed By,Boss,,,,,,,,
+Reviewed Date,6-12-2024,,,,,,,,
+,,,,,,,,,
+Test Case ID,Test Scenario ID,Test Case Title,Pre-requisites,Test Steps,Test Data,Expected Result,Actual Result,Status,
+TC-001, (TS_001)Cart  funcationality,"Verify that user application to place order valid data field like(Name, Country,city ,Credit card,Month, Year) 
+","https://www.demoblaze.com/cart.html
+","1.Click on cart then open product to display 
+2.Click on Place Order:- so place order of data field textbox   (Name, Country ,city ,Credit card, Month, Year) 
+3.Click on Colse button
+4.Click on Purchaes button.
+5.it is a Successful message to show of the display then click the ok button","Name:- Puja Chauhan
+Country:- India
+City:- Ghaziabad
+Credit card:- PNB
+Month:-2
+Year:-2024","Message is a successful should be display in the valid data field in textbox by  (Name, Country,city ,Credit card,Month, Year) 
+"," Thank you for your purchase!
+            Id:5219585
+          Amount:800 USD
+         Card Number: PNB
+         Name:puja chauhan
+          Date:28/11/2024
+date :-it is a waring message show to display ",Fail,
+TC-002, (TS_001)Cart funcationality,Verify that user to product is not any purchase.,"https://www.demoblaze.com/cart.html
+","1.Click on cart then open product to display 
+2.Click on Place Order:- so place order of data field textbox   (Name, Country ,city ,Credit card, Month, Year) 
+3.Click on Colse button
+4.Click on Purchaes button.
+5.open the next page. it is a Successful message to show of the display then click the ok button","Name:- Riya Chauhan
+Country:- India
+City:- Ghaziabad
+Credit card:- PNB
+Month:-2
+Year:-2024","1. Message is a successful should be display in the valid data field in textbox by  (Name, Country,city ,Credit card,Month, Year)
+2. That user to product is not any purchase but 
+
+","Successful  message show the display like:-
+ Thank you for your purchase!
+            Id:5219585
+          Amount: 0 USD
+         Card Number: PNB
+         Name:puja chauhan
+          Date:28/11/2024",pass,
+TC-003, (TS_001)Cart funcationality,"Verify that user application to place order in valid data field (Country,city ,Credit card,Month, Year) but no fill data in textbox of name
+","https://www.demoblaze.com/cart.html
+","1.Click on cart then open products to display 
+2.Click on Place Order:- so place order of data field textbox   ( Country ,city ,Credit card, Month, Year) but not fill data in textbox of name.
+3.Click on Colse button
+4.Click on Purchaes button.
+"," Not enter the data in textbox of Name.
+ 
+Country:- India
+City:- Ghaziabad
+Credit card:- PNB
+Month:-2
+Year:-2024","under name not fill the valid data in textbox to below show error message should be display like as (Please fill out name).and pop up message show should be display
+","Warning message to show display :-Please fill out Name and Creditcard.
+but fill the credit card the error msg show to display.",Fail,
+TC-004, (TS_001)Cart funcationality,"Verify that user application to place order in invalid data field (Country,city ,,Month, Year).
+","https://www.demoblaze.com/cart.html
+","1.Click on cart then open products to display 
+2.Click on Place Order:- so place order of data field textbox   ( Country ,city ,, Month, Year) 
+3.Click on Colse button
+4.Click on Purchaes button.
+5.open the next page. it is a Successful message to show of the display then click the ok button","Name:- Riya Chauhan
+Credit card:- PNB
+","Warning message to show display.
+ not fill the valid data in  textbox to below (country,city, month, year) show below error message  to should be display","Warning message to show display :-Thank you for your purchase!
+            Id:9996909
+          Amount: 0 USD
+         Card Number: PNB
+         Name:puja
+          Date:29/11/2024
+",Fail,
+TC-005, (TS_001)Cart  funcationality,"Verify that user  place order to not fill textbox into data  (Month, Year).","https://www.demoblaze.com/cart.html
+","1.Click on cart then open products to display 
+2.Click on Place Order:- so place order of blank in textbox   (Month, Year) 
+3.Click  the Colse button
+4.Click on Purchaes button.
+5.open the next page. it is a Successful message to show of the display then click the ok button
+","Name:- nitu rajput
+Country:- India
+City:- Ghaziabad
+Credit card:- PNB
+"," that user in place order in not fill textbox into data (Month,Year)  but  should be display  below to error message show the textbox  or no successful message show display by not show date  
+","message to show display :-Thank you for your purchase!
+            Id:244244
+          Amount:  6780USD
+         Card Number: PNB
+         Name:nitu rajput
+          Date:30/11/2024
+",Fail,
+TC-006, (TS_001)Cart  funcationality,"Verify that user  to application using in'press the keyboard key.(Tab,Enter)
+","https://www.demoblaze.com/cart.html
+","1.Click on cart then open products to display 
+2.Click on (View site information, link,google lens, bookmark this tab, Product Store, home,contact, About us, cart, login, sign up) press the keyword in key  (tab,enter) doing it work
+3.Click on the but some element not work the tab button
+",,"proper work done should be display the using press keyboard button in key (tab,enter)","press the keyword in key  (tab,enter) doing it work Click on the but some element not work the tab button and press the enter button not move other element 
+",Fail,
+TC-007, (TS_001)Cart funcationality,"Verify that user to application of proper way not open in phone for menu bar option in the line break
+","https://www.demoblaze.com/cart.html
+","1.Click on cart then open products to display 
+2.Click on place order then open in phone but textfield inproper way show 
+3. Option menu is a line break by open the phone.",,"proper way should be shown in the all menu bar and cart page phone in the display 
+","1.the application place order is open in phone but textfield in unproper way show to display. 
+2.the cart page open to phone but not proper way open the page so that menu bar option is line break is happening  in the phone",Fail,
+TC-008, (TS_001)Cart funcationality,Verify the logo image clickable at the footer,"https://www.demoblaze.com/cart.html
+","1.Click on cart then open products to display 
+2.Click on logo show to footer ",,"the logo clickable at should be  footer and click on the logo show the colour for  should be by footer
+","the logo is not clickable and no show colour at footer
+",fail,
+TC-09, (TS_001)Cart funcationality,"Verify that logo  mouse cursor changes from a point to a hand on the link
+","https://www.demoblaze.com/cart.html
+","1.Click on cart then open products to display 
+2.Click on logo show to footer 
+3.Click on the logo by mouse cursor change from a point to a hand  ",,the logo went to should be mouse cursor change in colour or at the mouse cursor changes from a point to a hand,"the logo went to mouse cursor in colour not change or at the mouse cursor not changes from a point to a hand
+",fail,
+TC-010, (TS_001)Cart funcationality,"Verify whether the copyright section is added to the footer or not
+","https://www.demoblaze.com/cart.html
+","1.Click on cart then open products to display 
+2.Click on logo show to footer 
+3.Click on the logo by mouse cursor change from a point to a hand  
+4.It is copyright section in added to the footer ",,"the copyright section to added should be footer or icon show at the footer
+","the copyright section is a added to footer or icon show at the footer
+",pass,
+TC-011, (TS_001)Cart funcationality,"Verify header is sticky on the whole page or fixed as per requirement and design
+","https://www.demoblaze.com/cart.html
+",1.Click on cart then open products to display,,"header should not be sticky on the whole page so that go to cursor down or fixed as per requirement and design
+","the header is not sticky so that went down cursor or fixed as per requirement design
+",pass,
