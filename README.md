@@ -8,6 +8,7 @@ URL Link:-https://demoblaze.com
 <br>
 Author: Samiksha Chauhan
 <br>
+<br>
 Manual Testing Project(2)
 <br>
 Test Plan I have created a Test Plan for the Project
@@ -17,6 +18,7 @@ Project Name :E-Commerce Websites Project(Browers Stack)
 URL Link:https://www.browserstack.com/users/sign_up
 <br>
 Author: Samiksha Chauhan
+<br>
 <br>
 Manual Testing Project(1)
 <br>
