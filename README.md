@@ -38,11 +38,12 @@ Modules: Register, Login, Cart
 35+ test cases | Functional, UI Testing
 
 7. 📊 AIVOA Project
+ 
 🌐 URL:  https://aivoa.ai/
 Complete End-to-End Test Suite
 Test Plan + Test Cases + Execution Report
 
-8. 🔌 REST API Testing
+9. 🔌 REST API Testing
 
 🌐 URL: https://restful-booker.herokuapp.com
 Methods: GET, POST, PUT, DELETE
